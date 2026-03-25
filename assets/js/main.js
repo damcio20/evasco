@@ -9,6 +9,17 @@
     el.textContent = String(new Date().getFullYear());
   });
 
+
+const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.main-nav-list a').forEach((link) => {
+  const href = link.getAttribute('href') || '';
+  if (currentPage === 'index.html' && href === 'index.html') {
+    link.classList.add('active');
+  } else if (currentPage !== 'index.html' && href && href.split('?')[0] === currentPage) {
+    link.classList.add('active');
+  }
+});
+
   function closeDrawer() {
     body.classList.remove('mobile-nav-open');
   }

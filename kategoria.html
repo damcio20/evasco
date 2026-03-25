@@ -12,7 +12,7 @@
 <div class="drawer-overlay" data-drawer-overlay></div>
 <aside class="mobile-drawer" data-mobile-drawer>
   <div class="drawer-head">
-    <img src="assets/img/logo.png" alt="VASCO" style="width:130px">
+    <img src="assets/img/logo-transparent.png" alt="VASCO" style="width:130px; background:transparent">
     <button class="btn btn-secondary" type="button" data-drawer-close>Zamknij</button>
   </div>
   <nav class="drawer-nav" aria-label="Mobilne menu">
@@ -24,46 +24,56 @@
   </div>
 </aside>
 
-<header class="site-topbar">
-  <div class="container">
-    <div class="topbar-links">
-      <a href="tel:+48791907103">791 907 103</a>
-      <span class="topbar-divider">|</span>
-      <a href="kontakt.html">Kontakt</a>
-    </div>
-    <div class="topbar-actions">
-      <a href="#">Zarejestruj się</a>
-      <span class="topbar-divider">|</span>
-      <a href="#">Zaloguj się</a>
-    </div>
-  </div>
-</header>
-
 <header class="site-header">
   <div class="site-header-main">
     <div class="container">
-      <a href="index.html" aria-label="VASCO - strona główna">
-        <img class="site-logo" src="assets/img/logo.png" alt="VASCO">
-      </a>
+      <div class="header-bar">
+        <button class="burger" type="button" aria-label="Otwórz menu" data-nav-toggle>
+          <span class="burger-lines"></span>
+        </button>
+
+        <a class="site-logo-link" href="index.html" aria-label="VASCO - strona główna">
+          <img class="site-logo" src="assets/img/logo-transparent.png" alt="VASCO">
+        </a>
+
+        <div class="header-mobile-icons">
+          <a class="icon-action" href="#" aria-label="Moje konto">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21a7 7 0 0 0-14 0"/><circle cx="12" cy="8" r="4"/></svg>
+          </a>
+          <a class="icon-action" href="#" aria-label="Koszyk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M3 4h2l2.2 10.2a1 1 0 0 0 1 .8h9.8a1 1 0 0 0 1-.8L21 7H7"/></svg>
+          </a>
+        </div>
+      </div>
 
       <div class="header-tools">
         <form class="search-form" action="#" method="get" role="search">
           <input type="search" placeholder="Szukaj w sklepie..." aria-label="Szukaj w sklepie">
-          <button type="submit" aria-label="Szukaj">🔍</button>
+          <button type="submit" aria-label="Szukaj">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.2-4.2"/></svg>
+          </button>
         </form>
-        <a class="header-action" href="platnosci.html">Płatności</a>
-        <a class="header-action" href="#">Koszyk (pusty)</a>
+        <a class="header-action header-action--account" href="#" aria-label="Moje konto">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21a7 7 0 0 0-14 0"/><circle cx="12" cy="8" r="4"/></svg>
+          <span class="label">Moje konto</span>
+        </a>
+        <a class="header-action" href="#" aria-label="Koszyk">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/><path d="M3 4h2l2.2 10.2a1 1 0 0 0 1 .8h9.8a1 1 0 0 0 1-.8L21 7H7"/></svg>
+          <span class="label">Koszyk</span>
+        </a>
       </div>
-
-      <button class="burger" type="button" aria-label="Otwórz menu" data-nav-toggle>
-        <span class="burger-lines"></span>
-      </button>
     </div>
   </div>
   <nav class="main-nav" aria-label="Główne menu">
     <div class="container">
       <ul class="main-nav-list">
-        <li><a href="index.html">Start</a></li><li><a href="kategoria.html?category=Torebki" class="active">Torebki</a></li><li><a href="kategoria.html?category=Plecaki">Plecaki</a></li><li><a href="kategoria.html?category=Walizki">Walizki</a></li><li><a href="kategoria.html?category=Portfele%20i%20etui">Portfele i etui</a></li><li><a href="o-firmie.html">O firmie</a></li><li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="index.html" class="nav-link-home">Start</a></li>
+        <li><a href="kategoria.html?category=Torebki">Torebki</a></li>
+        <li><a href="kategoria.html?category=Plecaki">Plecaki</a></li>
+        <li><a href="kategoria.html?category=Walizki">Walizki</a></li>
+        <li><a href="kategoria.html?category=Portfele%20i%20etui">Portfele i etui</a></li>
+        <li><a href="o-firmie.html">O firmie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
       </ul>
     </div>
   </nav>
@@ -130,7 +140,7 @@
   <div class="footer-main">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <img src="assets/img/logo.png" alt="VASCO">
+        <img src="assets/img/logo-transparent.png" alt="VASCO">
         <p>Nowa, lżejsza odsłona sklepu przygotowana mobile-first pod wdrożenie w Shoperze. Zachowuje klimat marki, ale porządkuje UX, treści i sekcje sprzedażowe.</p>
         <div class="footer-logos"><img src="assets/img/badges/payment-visa.svg" alt="Visa"><img src="assets/img/badges/payment-mastercard.svg" alt="Mastercard"><img src="assets/img/badges/payment-blik.svg" alt="BLIK"><img src="assets/img/badges/shipping-inpost.svg" alt="InPost"><img src="assets/img/badges/shipping-courier.svg" alt="Kurier"><img src="assets/img/badges/shipping-pickup.svg" alt="Odbiór osobisty"></div>
       </div>
