@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="960" viewBox="0 0 800 960" fill="none">
+<rect width="800" height="960" rx="40" fill="#F4EDE6"/>
+<circle cx="620" cy="170" r="110" fill="#8CA0AE" opacity=".18"/>
+<circle cx="170" cy="740" r="120" fill="#D61F26" opacity=".08"/>
+<rect x="110" y="210" width="580" height="520" rx="48" fill="white" stroke="#DED4CA" stroke-width="8"/>
+<path d="M265 300C265 238 314 188 376 188H424C486 188 535 238 535 300V354H495V308C495 265 461 231 418 231H382C339 231 305 265 305 308V354H265V300Z" fill="#8CA0AE"/>
+<rect x="200" y="330" width="400" height="300" rx="36" fill="#8CA0AE" fill-opacity=".28" stroke="#8CA0AE" stroke-width="5"/>
+<rect x="240" y="380" width="320" height="168" rx="18" fill="white" fill-opacity=".88"/>
+<rect x="280" y="354" width="240" height="28" rx="14" fill="#151515" fill-opacity=".12"/>
+<text x="400" y="432" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#151515">Walizka</text>
+<text x="400" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#6F665D">placeholder</text>
+<text x="400" y="834" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#8A6B55">Dodaj zdjęcie produktu klienta</text>
+</svg>

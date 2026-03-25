@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VASCO - nowy front sklepu</title>
+  <meta name="description" content="Nowoczesny, mobile-first projekt sklepu VASCO przygotowany pod wdrożenie w Shoperze.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="drawer-overlay" data-drawer-overlay></div>
+<aside class="mobile-drawer" data-mobile-drawer>
+  <div class="drawer-head">
+    <img src="assets/img/logo.png" alt="VASCO" style="width:130px">
+    <button class="btn btn-secondary" type="button" data-drawer-close>Zamknij</button>
+  </div>
+  <nav class="drawer-nav" aria-label="Mobilne menu">
+    <a href="index.html">Start</a><a href="kategoria.html?category=Torebki">Torebki</a><a href="kategoria.html?category=Plecaki">Plecaki</a><a href="kategoria.html?category=Walizki">Walizki</a><a href="kategoria.html?category=Portfele%20i%20etui">Portfele i etui</a><a href="o-firmie.html">O firmie</a><a href="kontakt.html">Kontakt</a><a href="platnosci.html">Płatności</a><a href="dostawa.html">Dostawa</a><a href="zwroty-i-reklamacje.html">Zwroty i reklamacje</a><a href="regulamin.html">Regulamin</a>
+  </nav>
+  <div class="drawer-footer" style="margin-top:1rem">
+    <a href="tel:+48791907103">791 907 103</a>
+    <a href="mailto:shop@e-vasco.pl">shop@e-vasco.pl</a>
+  </div>
+</aside>
+
+<header class="site-topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <a href="tel:+48791907103">791 907 103</a>
+      <span class="topbar-divider">|</span>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div class="topbar-actions">
+      <a href="#">Zarejestruj się</a>
+      <span class="topbar-divider">|</span>
+      <a href="#">Zaloguj się</a>
+    </div>
+  </div>
+</header>
+
+<header class="site-header">
+  <div class="site-header-main">
+    <div class="container">
+      <a href="index.html" aria-label="VASCO - strona główna">
+        <img class="site-logo" src="assets/img/logo.png" alt="VASCO">
+      </a>
+
+      <div class="header-tools">
+        <form class="search-form" action="#" method="get" role="search">
+          <input type="search" placeholder="Szukaj w sklepie..." aria-label="Szukaj w sklepie">
+          <button type="submit" aria-label="Szukaj">🔍</button>
+        </form>
+        <a class="header-action" href="platnosci.html">Płatności</a>
+        <a class="header-action" href="#">Koszyk (pusty)</a>
+      </div>
+
+      <button class="burger" type="button" aria-label="Otwórz menu" data-nav-toggle>
+        <span class="burger-lines"></span>
+      </button>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Główne menu">
+    <div class="container">
+      <ul class="main-nav-list">
+        <li><a href="index.html" class="active">Start</a></li><li><a href="kategoria.html?category=Torebki">Torebki</a></li><li><a href="kategoria.html?category=Plecaki">Plecaki</a></li><li><a href="kategoria.html?category=Walizki">Walizki</a></li><li><a href="kategoria.html?category=Portfele%20i%20etui">Portfele i etui</a></li><li><a href="o-firmie.html">O firmie</a></li><li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Mobile first • premium UI</span>
+      <h1>Torebki, plecaki i dodatki w eleganckiej odsłonie VASCO</h1>
+      <p class="lead">Lżejszy, nowocześniejszy i gotowy pod Shoper front zbudowany wokół logo VASCO: czerń, ecru, taupe i subtelny czerwony akcent. Układ jest projektowany od telefonu w górę, żeby sprzedaż na mobile wreszcie wyglądała premium.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="kategoria.html?category=Torebki">Przeglądaj torebki</a>
+        <a class="btn btn-secondary" href="kategoria.html?category=Walizki">Zobacz walizki</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>Od 2001 roku</strong>
+          <span class="muted">galanteria, podróże i dodatki</span>
+        </div>
+        <div class="hero-stat">
+          <strong>2 sklepy stacjonarne</strong>
+          <span class="muted">Śląsk i sprzedaż online</span>
+        </div>
+        <div class="hero-stat">
+          <strong>Mobile-first</strong>
+          <span class="muted">szybki, lżejszy układ sekcji</span>
+        </div>
+        <div class="hero-stat">
+          <strong>Shoper-ready</strong>
+          <span class="muted">moduły, treści i legal pages</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card hero-card--bag">
+        <img src="assets/img/placeholders/bag-1.svg" alt="Placeholder torebki">
+      </div>
+      <div class="hero-card hero-card--note">
+        <div class="kicker">Kolorystyka marki</div>
+        <h3 style="margin:.35rem 0 .5rem">Czerń • ecru • taupe • czerwony detal</h3>
+        <p class="small">Spójna paleta pod logo VASCO i branżę torebek. Zamiast chaosu - premium porządek.</p>
+      </div>
+      <div class="hero-card hero-card--accent">
+        <div class="kicker" style="color:#fff">Gotowe pod podmianę</div>
+        <h3 style="margin:.35rem 0 .5rem">Zdjęcia i banery klienta</h3>
+        <p class="small">Sekcje są już przygotowane na realne zdjęcia, kolekcje i treści sprzedażowe.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container metric-strip">
+    <div class="metric-item">
+      <strong>Paczkomaty InPost od 0 zł</strong>
+      <span class="muted">Czytelnie pokazane już na stronie głównej</span>
+    </div>
+    <div class="metric-item">
+      <strong>Wysyłka 1-2 dni robocze</strong>
+      <span class="muted">Jasno zakomunikowana informacja o dostawie</span>
+    </div>
+    <div class="metric-item">
+      <strong>Zwrot do 14 dni</strong>
+      <span class="muted">Osobna podstrona + przycisk pobrania PDF</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Kategorie</span>
+      <h2>Wejście do sklepu bez przeładowania</h2>
+      <p class="lead">Zamiast ciężkiego i rozwleczonego menu klient dostaje szybkie wejścia do głównych działów. Ten blok jest gotowy do podpięcia pod kategorie Shopera.</p>
+    </div>
+    <div class="card-grid categories">
+      <article class="category-card">
+        <img src="assets/img/placeholders/bag-1.svg" alt="Torebki">
+        <div class="category-card-body"><div><h3>Torebki</h3><p>Listonoszki, shopperki i modele codzienne.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Torebki">Wejdź</a></div>
+      </article>
+      <article class="category-card">
+        <img src="assets/img/placeholders/backpack.svg" alt="Plecaki">
+        <div class="category-card-body"><div><h3>Plecaki</h3><p>Miejskie, szkolne i podróżne.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Plecaki">Wejdź</a></div>
+      </article>
+      <article class="category-card">
+        <img src="assets/img/placeholders/suitcase.svg" alt="Walizki">
+        <div class="category-card-body"><div><h3>Walizki</h3><p>Kabinowe i większe modele na wyjazd.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Walizki">Wejdź</a></div>
+      </article>
+      <article class="category-card">
+        <img src="assets/img/placeholders/wallet.svg" alt="Portfele i etui">
+        <div class="category-card-body"><div><h3>Portfele i etui</h3><p>Praktyczne dodatki premium.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Portfele%20i%20etui">Wejdź</a></div>
+      </article>
+      <article class="category-card">
+        <img src="assets/img/placeholders/travel-bag.svg" alt="Akcesoria podróżne">
+        <div class="category-card-body"><div><h3>Akcesoria podróżne</h3><p>Organizacja i wygoda w podróży.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Akcesoria%20podr%C3%B3%C5%BCne">Wejdź</a></div>
+      </article>
+      <article class="category-card">
+        <img src="assets/img/placeholders/case.svg" alt="Teczki">
+        <div class="category-card-body"><div><h3>Teczki</h3><p>Modele biznesowe i do pracy.</p></div><a class="btn btn-secondary" href="kategoria.html?category=Teczki">Wejdź</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Produkty demo</span>
+      <h2>Gotowa sekcja bestsellerów i nowości</h2>
+      <p class="lead">Dodałem kompletne karty produktów z cenami demo, badge'ami i CTA. W Shoperze możesz je przepiąć pod realny listing lub wybrane produkty.</p>
+    </div>
+    <div class="card-grid products" data-products="featured"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container story-grid">
+    <article class="story-card">
+      <img src="assets/img/placeholders/travel-bag.svg" alt="Styl VASCO">
+      <div class="story-card-body">
+        <span class="eyebrow">O marce</span>
+        <h2>Stary sklep miał asortyment. Nowy ma jeszcze prowadzić do zakupu.</h2>
+        <p>Nowy layout upraszcza ścieżkę klienta: mniej chaosu, większe zdjęcia, lepszy kontrast, bardziej czytelne CTA i dobrze widoczne informacje o dostawie, płatnościach i zwrotach.</p>
+        <ul class="check-list">
+          <li>krótsze sekcje i mniej ciężkich bloków</li>
+          <li>responsywność od telefonu, nie od desktopu</li>
+          <li>lepsza ekspozycja kategorii i produktów</li>
+          <li>spójny styl pasujący do torebek i logo</li>
+        </ul>
+      </div>
+    </article>
+    <div style="display:grid; gap:1rem">
+      <div class="quote">
+        <p>„Sklep ma wyglądać premium, ale wciąż działać szybko i być łatwy do wdrożenia w Shoperze.”</p>
+        <span class="muted">To był główny cel tego redesignu.</span>
+      </div>
+      <article class="info-card">
+        <div class="info-card-body">
+          <span class="eyebrow">Sekcje informacyjne</span>
+          <h3>Legal pages i kontakt gotowe</h3>
+          <p>Podstrony regulaminu, polityki prywatności, dostawy, płatności, zwrotów, newslettera i informacji dla konsumenta są już uzupełnione treścią z Twoich plików.</p>
+          <a class="btn btn-secondary" href="zwroty-i-reklamacje.html">Zobacz zwroty i reklamacje</a>
+        </div>
+      </article>
+      <article class="info-card">
+        <div class="info-card-body">
+          <span class="eyebrow">Shoper Storefront</span>
+          <h3>Przygotowane pod moduły i edycję</h3>
+          <p>Układ i pliki są rozdzielone na HTML, CSS, JS i gotowe do dalszego cięcia pod moduły własne w Shoper Storefront.</p>
+          <a class="btn btn-secondary" href="README-WDROZENIE-SHOPER.md">Instrukcja wdrożenia</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Marki</span>
+      <h2>Ściana marek w lżejszym wydaniu</h2>
+      <p class="lead">Zostawiłem format, który możesz podpiąć pod producentów lub dedykowane landing pages marek.</p>
+    </div>
+    <div class="brand-wall" data-brand-wall></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <span class="eyebrow" style="background:rgba(255,255,255,.1); color:#fff">Newsletter</span>
+        <h2 style="margin-top:.8rem">Zbieraj zapisy bez ciężkiego, starego boxa</h2>
+        <p>Nowy formularz newslettera jest lżejszy, czytelny na mobile i pasuje do premium charakteru marki.</p>
+      </div>
+      <form class="newsletter-form" data-newsletter-form>
+        <div class="form-row">
+          <input class="field" type="email" placeholder="Twój adres e-mail" aria-label="Adres e-mail">
+          <button class="btn btn-accent" type="submit">Zapisz mnie</button>
+        </div>
+        <p class="form-note" data-form-feedback>Po wdrożeniu podepnij formularz pod moduł newslettera Shopera.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="VASCO">
+        <p>Nowa, lżejsza odsłona sklepu przygotowana mobile-first pod wdrożenie w Shoperze. Zachowuje klimat marki, ale porządkuje UX, treści i sekcje sprzedażowe.</p>
+        <div class="footer-logos"><img src="assets/img/badges/payment-visa.svg" alt="Visa"><img src="assets/img/badges/payment-mastercard.svg" alt="Mastercard"><img src="assets/img/badges/payment-blik.svg" alt="BLIK"><img src="assets/img/badges/shipping-inpost.svg" alt="InPost"><img src="assets/img/badges/shipping-courier.svg" alt="Kurier"><img src="assets/img/badges/shipping-pickup.svg" alt="Odbiór osobisty"></div>
+      </div>
+      <div class="footer-col"><h3>Zakupy</h3><nav class="footer-nav"><a href="regulamin.html">Regulamin</a><a href="polityka-prywatnosci.html">Polityka prywatności</a><a href="zwroty-i-reklamacje.html">Zwroty i reklamacje</a><a href="informacja-dla-konsumenta.html">Informacje dla konsumenta</a><a href="platnosci.html">Formy płatności</a><a href="dostawa.html">Czas i koszty dostawy</a></nav></div><div class="footer-col"><h3>Klient</h3><nav class="footer-nav"><a href="newsletter.html">Newsletter</a><a href="kontakt.html">Kontakt</a><a href="o-firmie.html">O firmie</a><a href="kategoria.html?category=Torebki">Torebki</a><a href="kategoria.html?category=Walizki">Walizki</a></nav></div>
+      <div class="footer-col">
+        <h3>Kontakt</h3>
+        <nav class="footer-nav">
+          <a href="tel:+48791907103">tel. 791 907 103</a>
+          <a href="mailto:shop@e-vasco.pl">shop@e-vasco.pl</a>
+          <a href="kontakt.html">Formularz kontaktowy</a>
+          <span>Słotwina, ul. ks. J. Popiełuszki 94<br>34-324 Lipowa</span>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© <span data-current-year></span> VASCO</span>
+      <span>Projekt frontu przygotowany pod Shoper Storefront</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
